@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -19,9 +20,8 @@ builder.Services.AddMediatR(conf=>conf.RegisterServicesFromAssembly(Assembly.Get
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("Connect")));
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-                
-                .AddEntityFrameworkStores<>()
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()                
+                .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
 var app = builder.Build();

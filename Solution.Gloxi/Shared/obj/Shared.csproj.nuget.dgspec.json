@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj": {}
+    "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj": {
+    "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Fba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\sergio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

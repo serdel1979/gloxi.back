@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\",
+  "WorkspaceRootPath": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\sergio\\desktop\\gloxi.back\\solution.gloxi\\users.back\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Migrations\\20241213153239_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Users.Back\\Migrations\\20241213153239_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\sergio\\desktop\\gloxi.back\\solution.gloxi\\users.back\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\sergio\\desktop\\gloxi.back\\solution.gloxi\\users.back\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\sergio\\desktop\\gloxi.back\\solution.gloxi\\users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +34,67 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Users.Back\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\appsettings.Development.json",
-              "RelativeToolTip": "Users.Back\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-12T23:05:01.511Z",
+              "DocumentIndex": 1,
+              "Title": "20241213153239_init.cs",
+              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Migrations\\20241213153239_init.cs",
+              "RelativeDocumentMoniker": "Users.Back\\Migrations\\20241213153239_init.cs",
+              "ToolTip": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Migrations\\20241213153239_init.cs",
+              "RelativeToolTip": "Users.Back\\Migrations\\20241213153239_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:32:39.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Users.Back\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Users.Back\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T22:55:10.967Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Users.Back\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\appsettings.Development.json",
+              "RelativeToolTip": "Users.Back\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T15:29:33.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Program.cs",
-              "RelativeDocumentMoniker": "Users.Back\\Program.cs",
-              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Program.cs",
-              "RelativeToolTip": "Users.Back\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Users.Back\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Users.Back\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T22:45:00.461Z",
+              "WhenOpened": "2024-12-13T15:22:34.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Program.cs",
+              "RelativeDocumentMoniker": "Users.Back\\Program.cs",
+              "ToolTip": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Program.cs",
+              "RelativeToolTip": "Users.Back\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:12:42.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Users.Back\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Users.Back\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:03:19.319Z",
               "EditorCaption": ""
             }
           ]
