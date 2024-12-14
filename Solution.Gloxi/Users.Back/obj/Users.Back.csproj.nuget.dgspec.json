@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj": {}
+    "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj": {
+    "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj",
+        "projectUniqueName": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj",
         "projectName": "Users.Back",
-        "projectPath": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj",
-        "packagesPath": "C:\\Users\\sergio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sergio\\Desktop\\gloxi.back\\Solution.Gloxi\\Users.Back\\obj\\",
+        "projectPath": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Users.Back.csproj",
+        "packagesPath": "C:\\Users\\Fba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -68,13 +76,17 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -96,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

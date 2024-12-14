@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Users.Back;
@@ -11,9 +12,11 @@ using Users.Back;
 namespace Users.Back.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241214133706_seccond")]
+    partial class seccond
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,26 +49,6 @@ namespace Users.Back.Migrations
                         .HasDatabaseName("RoleNameIndex");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "d7547a8d-a6ce-46e5-a445-411703609737",
-                            Name = "ROOT",
-                            NormalizedName = "ROOT"
-                        },
-                        new
-                        {
-                            Id = "40abb75a-5c1e-4f7d-b086-200fe45e1d12",
-                            Name = "SUPERROOT",
-                            NormalizedName = "SUPERROOT"
-                        },
-                        new
-                        {
-                            Id = "ad58d2e3-6e2c-4f03-8f89-2475e300a6be",
-                            Name = "USER",
-                            NormalizedName = "USER"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

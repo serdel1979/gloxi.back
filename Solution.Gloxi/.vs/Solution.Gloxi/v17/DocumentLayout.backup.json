@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|c:\\users\\fba\\desktop\\gloxi.back\\solution.gloxi\\users.back\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B39205-91ED-4135-BB67-48025D12280A}|Users.Back\\Users.Back.csproj|solutionrelative:users.back\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Users.Back\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Users.Back\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\DTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Users.Back\\DTO\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\DTO\\RegisterDto.cs",
+              "RelativeToolTip": "Users.Back\\DTO\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T22:55:10.967Z",
+              "WhenOpened": "2024-12-14T13:56:03.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Users.Back\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Users.Back\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:38:08.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Program.cs",
               "RelativeDocumentMoniker": "Users.Back\\Program.cs",
               "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\Program.cs",
               "RelativeToolTip": "Users.Back\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T22:45:00.461Z",
+              "WhenOpened": "2024-12-14T13:23:04.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Users.Back\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Fba\\Desktop\\Gloxi.back\\Solution.Gloxi\\Users.Back\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Users.Back\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:22:34.328Z",
               "EditorCaption": ""
             }
           ]
