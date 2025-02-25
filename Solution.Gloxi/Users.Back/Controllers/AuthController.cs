@@ -30,7 +30,9 @@ namespace Users.Back.Controllers
 
             if (result.Succeeded)
             {
-                return Ok(new { Message = "Usuario registrado con éxito" });
+                await _userManager.AddToRoleAsync(user, "USER");
+
+                return Ok(new { Message = "Usuario registrado con éxito y asignado al rol USER" });
             }
 
             return BadRequest(result.Errors);
@@ -42,11 +44,19 @@ namespace Users.Back.Controllers
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
+                var userRoles = await _userManager.GetRolesAsync(user); // Obtener roles
+
                 var authClaims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-            };
+                {
+                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                };
+
+                // Agregar roles como claims en el token
+                foreach (var role in userRoles)
+                {
+                    authClaims.Add(new Claim(ClaimTypes.Role, role));
+                }
 
                 var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
 
@@ -61,12 +71,14 @@ namespace Users.Back.Controllers
                 return Ok(new
                 {
                     Token = new JwtSecurityTokenHandler().WriteToken(token),
-                    Expiration = token.ValidTo
+                    Expiration = token.ValidTo,
+                    Roles = userRoles 
                 });
             }
 
             return Unauthorized();
         }
+
     }
 
 
